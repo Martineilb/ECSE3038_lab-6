@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #b29dbd;
+}
+
+body h1 {
+    margin-left: 30%;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+body h3 {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+body span {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #141616;
+}
+
+body .tankForm {
+    margin-left: 20%;
+    margin-right: 20%;
+    -webkit-box-shadow: 0 3px 19px 0 #000000;
+    box-shadow: 0 3px 29px 0 #000000;
+    border-radius: 50px;
+    background-color: rgb(20, 154, 221);
+}
+
+body .tankForm:hover {
+    -webkit-box-shadow: 0 6px 18px 0 hsl(181, 72%, 40%);
+    box-shadow: 0 6px 18px 0 #0ac4c7;
+}
+
+body .tankForm .storage_tanks {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body .tankForm .tankAction input {
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    background-color: #b0c9d1;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #f20909;
+    opacity: 2;
+}
+
+body .tank-cards {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0 3px 9px 0 #000000;
+    box-shadow: 0 3px 9px 0 #000000;
+    border-radius: 30px;
+}
+
+body .tank-cards:hover {
+    -webkit-box-shadow: 0 6px 18px 0 #06205f;
+    box-shadow: 0 6px 18px 0 #141616;
+}
+
+body .tank-cards .card-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+body .tank-cards button {
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    background-color: #26f95b;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
